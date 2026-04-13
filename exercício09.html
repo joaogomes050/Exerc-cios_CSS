@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float e clear</title>
+<style>
+    *{margin: 0;}
+    .menu{
+        background-color: blue;
+        height: 100px;
+        width: 100%;
+    }
+    .esq{
+        background-color: blueviolet;
+        width: 400px;
+        height: 400px;
+        float: left;
+        margin: 20px;
+    }
+    .meio{
+        background-color: aqua;
+        height: 400px;
+        width: 630px;
+        float: left;
+        margin: 20px;
+    }
+    .dir{
+        background-color: cadetblue;
+        height: 400px;
+        width: 350px;
+        float: left;
+        margin: 20px;
+    }
+    .roda{
+        background-color: brown;
+        height: 60px;
+        width: 100%;
+    }
+    .clear{
+        clear: both;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="menu" >
+            MENU
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="esq" >
+                ESQUERDA
+            </div>
+            <div class="meio" >
+                MEIO
+            </div>
+            <div class="dir" >
+                DIREITA
+            </div>
+            <div class="clear" ></div>
+        </div>
+    </main>
+    <footer>
+        <div class="roda" >
+            RODAPÉ  
+        </div>
+    </footer>
+</body>
+</html>
